@@ -11,3 +11,12 @@ body {
     color: #ffffff;
     padding: 10px;
   }
+
+  #game {
+    max-width: 500px;
+    max-height: 400px;
+    background-color: #fff;
+    color: #fff;
+    margin: 30px auto 0 auto;
+    padding: 10px;
+  }
