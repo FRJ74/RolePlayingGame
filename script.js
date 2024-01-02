@@ -1,4 +1,5 @@
 /* Variable initialization*/
+
 let xp = 0;
 let health = 100;
 let gold = 50;
@@ -22,3 +23,16 @@ const monsterHealthText = document.querySelector("#monsterHealth");
 button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
+
+// goStore function
+
+function goStore() {
+    console.log("Going to store.");
+  
+}
+
+// goCave function
+
+function goCave() {
+    console.log("Going to cave.");
+  }
