@@ -36,3 +36,9 @@ function goStore() {
 function goCave() {
     console.log("Going to cave.");
   }
+
+  // fightDragon function
+
+  function fightDragon() {
+    console.log("Fighting dragon.");
+  }
