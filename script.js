@@ -24,6 +24,18 @@ button1.onclick = goStore;
 button2.onclick = goCave;
 button3.onclick = fightDragon;
 
+// goTown functions
+
+function goTown() {
+  button1.innerText = "Go to store";
+  button2.innerText = "Go to cave";
+  button3.innerText = "Fight dragon";
+  button1.onclick = goStore;
+  button2.onclick = goCave;
+  button3.onclick = fightDragon;
+  text.innerText = "You are in the town square. You see a sign that says Store."; 
+}
+
 // goStore function
 
 function goStore() {
@@ -48,7 +60,7 @@ function goCave() {
     console.log("Fighting dragon.");
   }
 
-  // buyHealth, buyWeapon, and goTown functions
+  // buyHealth and buyWeapon function
 
   function buyHealth() {
 
@@ -56,8 +68,4 @@ function goCave() {
   
   function buyWeapon() {
   
-  }
-  
-  function goTown() {
-    
   }
