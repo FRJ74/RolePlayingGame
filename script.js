@@ -32,7 +32,8 @@ function goStore() {
     button3.innerText = "Go to town square";
     button1.onclick = buyHealth;
     button2.onclick = buyWeapon;
-    button3.onclick = goTown;  
+    button3.onclick = goTown; 
+    text.innerText = "You enter the store." 
 }
 
 // goCave function
@@ -45,4 +46,18 @@ function goCave() {
 
   function fightDragon() {
     console.log("Fighting dragon.");
+  }
+
+  // buyHealth, buyWeapon, and goTown functions
+
+  function buyHealth() {
+
+  }
+  
+  function buyWeapon() {
+  
+  }
+  
+  function goTown() {
+    
   }
