@@ -73,7 +73,7 @@ function goStore() {
 // goCave function
 
 function goCave() {
-    console.log("Going to cave.");
+  update(locations[2]);
   }
 
   // fightDragon function
@@ -85,7 +85,8 @@ function goCave() {
   // buyHealth and buyWeapon function
 
   function buyHealth() {
-
+    gold = gold-10;
+    health = health+10;
   }
   
   function buyWeapon() {
