@@ -40,12 +40,10 @@ const locations = [
     text: "You are in the town square. You see a sign that says \"Store\"."
   },
   {
-
     name: "store",
     "button text": ["Buy 10 health (10 gold)",  "Buy weapon (30 gold)", "Go to town square"],
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store."
-
   },
   {
     name: "cave",
@@ -204,5 +202,17 @@ function sellWeapon() {
 }
 
   function lose() {
-  
+    update(locations[5])
+}
+
+function restart() {
+  xp = 0;
+  health = 100;
+  gold = 50;
+  currentWeapon = 0;
+  inventory = ["stick"];
+  goldText.innerText = gold;
+  healthText.innerText = health;
+  xpText.innerText = xp; 
+  goTown();
 }
