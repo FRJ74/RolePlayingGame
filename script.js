@@ -202,7 +202,7 @@ function sellWeapon() {
   }
 
   function getMonsterAttackValue(level) {
-  
+    const hit = (level * 5) -  (Math.floor(Math.random() * xp));
   }
   
   function dodge() {
